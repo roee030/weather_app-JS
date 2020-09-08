@@ -2,4 +2,57 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+.wrapper-app {
+  height: 100vh;
+  background: url(./img/background.jpg) no-repeat center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  width: 20rem;
+  border-radius: 20px;
+  position: relative;
+}
+button {
+  background-color: blue;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+}
+iframe {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+.search-city {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  height: 2rem;
+  display: flex;
+}
+.my-weather {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myw {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+.search-weather {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.search-weather-result {
+  font-size: 2rem;
 }

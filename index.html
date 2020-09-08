@@ -9,15 +9,17 @@
   <body>
     <div class="wrapper-app">
       <div class="search-city">
-        <input type="text" />
-        <button type="button">search</button>
+        <input class="city-input-holder" type="text" />
+        <button class="sumbit-btn" type="button">search</button>
       </div>
+      <span class="error-msg"></span>
       <div class="my-weather">
-        <div class="current-weather">current-weather</div>
-        <div class="sunrise">sunrise</div>
-        <div class="sunset">sunset</div>
-        <div class="search-weather">search-weather</div>
+        <div class="myw current-weather">Current weather</div>
+        <div class="myw sunrise">Sunrise</div>
+        <div class="myw sunset">Sunset</div>
+        <img class="weather-icon" src="" alt="" />
       </div>
+      <div class="search-weather">Search Weather</div>
     </div>
     <p id="status"></p>
     <a id="map-link" target="_blank"></a>
